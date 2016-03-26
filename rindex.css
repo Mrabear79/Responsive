@@ -1,0 +1,36 @@
+body {
+      margin: 0;
+}
+
+.container {
+  background-color: lightgreen;
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-direction: row large;
+  flex-direction: column small;
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  nav {
+      display: flex;
+      flex-direction: column large;
+      flex-direction: row small;
+      background-color: lightgreen;
+      color: black;
+      font-size: 1.2em;
+    }
+}
+.content {
+  background-color: lightyellow;
+  flex: 2;
+  height: 100vh;
+}
+
+@media all and (max-width : 768px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        padding: 3%;
+        background-color: lightgreen;
+    }
+}
